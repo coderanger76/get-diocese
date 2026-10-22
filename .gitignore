@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+# Generated at runtime: SQLite cache (seeded from dioceses.json) and rendered cards
+diocese.db
+presentation_*.png
+.DS_Store
