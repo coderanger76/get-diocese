@@ -2,13 +2,13 @@
 
 A terminal explorer for the 183 Latin-rite dioceses, archdioceses, and Eastern-rite eparchies of the United States. Press a key and it picks a diocese you haven't seen yet, gathers facts from Wikipedia and the diocese's own website, caches them in SQLite, and renders a styled card in your terminal. Press `P` to turn the card into a shareable PNG.
 
-It is also module `D` of the [Currents](https://github.com/coderanger76/currents) terminal suite.
-
-![Landscape card](examples/presentation_landscape.png)
+It is also module of the [Currents](https://github.com/coderanger76/currents) terminal suite.
+<img width="672" height="495" alt="image" src="https://github.com/user-attachments/assets/66aebd50-c71b-4131-b527-e9774223f5d9" />
 
 ## What you get
 
 Bishop, founding date, cathedral, Catholic and total population, parishes, priests, deacons, area, a Wikipedia summary, and an excerpt from the diocese's own "About" or "History" page. No API keys are needed.
+<img width="661" height="544" alt="image" src="https://github.com/user-attachments/assets/69740dba-efbc-4f6a-81cb-9cbadf5f8197" />
 
 ## Install
 
@@ -43,6 +43,7 @@ Requires Python 3.9+ on macOS or Linux (it uses `termios` for single-keypress in
 | `A` | all four | | |
 
 Cards are written to `presentation_<format>.png` next to the script, and open in Preview on macOS. Sample output is in [`examples/`](examples/). The footer handles are set in `presentation.py`; change them to your own.
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/dd2701a2-a89c-4e36-81be-c63ee15d4aec" />
 
 ## Data
 
