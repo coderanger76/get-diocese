@@ -132,7 +132,7 @@ Charleston, Harrisburg, San Francisco, and Biloxi — crest/cathedral/map all
 picked correctly, stat tiles handle both missing and overridden values, footer
 handles render correctly.
 
-### Same-day addendum: three output shapes (landscape/portrait/square)
+### three output shapes (landscape/portrait/square)
 
 the maintainer wanted to pick an output aspect ratio after adjusting figures, or
 generate all three at once, rather than always getting the one hard-coded
@@ -241,7 +241,7 @@ ellipsis renders correctly (with and without a pre-existing period at the
 cut point), and mobile fills its taller canvas cleanly with noticeably larger
 text/images and no overflow.
 
-### Same-day follow-up: full About text, no ellipsis — measure-first + grow-canvas
+### full About text, no ellipsis — measure-first + grow-canvas
 
 the maintainer: "I'd kind of prefer it if there were no ellipsis and it just
 included the entire about section of text." Pasted a Diocese of Memphis
